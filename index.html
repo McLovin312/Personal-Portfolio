@@ -1,279 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thomas Lovin | Software Support Engineer</title>
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-    crossorigin="anonymous"
-  >
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thomas Lovin | Software Support Engineer II</title>
+<meta name="description" content="Thomas Lovin, Software Support Engineer II. Industrial automation and SCADA systems, Ignition platform support, Python, SQL, OPC UA and PLCs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+>
+<link rel="stylesheet" href="style.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+<body>
 
-  <nav id="navbar" class="navbar navbar-expand-lg fixed-top bg-body shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold fs-3 text-primary" href="#">TL.</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto fw-medium gap-lg-3">
-          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+<a class="visually-hidden-focusable skip-link" href="#main">Skip to content</a>
+
+<header class="site-header fixed-top bg-white border-bottom">
+  <div class="container h-100 d-flex align-items-center justify-content-between">
+    <a class="text-decoration-none text-reset fw-semibold" href="#cover">
+      <span class="d-none d-sm-inline">TL.</span>
+      <span class="d-sm-none">TL</span>
+    </a>
+    <nav aria-label="Sections">
+      <ul class="nav nav-underline small fw-medium">
+        <li class="nav-item"><a class="nav-link px-2" href="#hero">Summary</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="cover" class="cover min-vh-100 d-flex align-items-center text-white">
+    <div class="container py-5 cover-content">
+      <div class="row">
+        <div class="col-lg-9 col-xl-8">
+          <h1 class="display-2 fw-semibold mb-2">Thomas Lovin</h1>
+          <p class="fs-3 fw-light mb-4 cover-subtitle">Software Support Engineer II</p>
+          <p class="fs-5 mb-5 col-xl-10 cover-lede">
+            Industrial automation and SCADA systems. I support the Ignition platform at
+            Inductive Automation and handle the escalations that cross hardware, software
+            and network boundaries.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3">
+            <a class="btn btn-primary btn-lg rounded-pill px-4 fw-semibold" href="#resume">View resume</a>
+            <a class="btn btn-outline-accent btn-lg rounded-pill px-4 fw-semibold" href="#contact">Get in touch</a>
+          </div>
+          <p class="small mt-5 mb-0 cover-meta">Folsom, California. Working remote.</p>
+        </div>
       </div>
     </div>
-  </nav>
+  </section>
 
-  <main>
-    <section id="hero" class="min-vh-100 d-flex align-items-center justify-content-center text-center text-bg-dark">
-      <div class="container px-4">
-        <h1 class="display-3 fw-bold mb-3">Hi, I'm <span class="text-primary">Thomas Lovin</span></h1>
-        <h2 class="h3 fw-light text-secondary mb-4">Software Support Engineer II</h2>
-        <p class="lead text-light mb-5 mx-auto" style="max-width: 600px;">
-          Bridging the gap between physical electrical systems and data-driven applications.
-        </p>
-        <div class="d-flex gap-3 justify-content-center flex-column flex-sm-row">
-          <a href="#projects" class="btn btn-primary btn-lg fw-bold px-4">View My Work</a>
-          <a href="https://www.linkedin.com/in/thomas-lovin/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg fw-bold px-4">LinkedIn Profile</a>
+  <section id="hero" class="py-5 border-bottom">
+    <div class="container py-lg-4">
+      <div class="row g-5">
+        <div class="col-lg-7">
+          <h2 class="h3 fw-semibold mb-4">Summary</h2>
+          <p>
+            I work on the software that runs plant floors. My background starts in the
+            panel with motor controls, power systems and industrial networks, then moves
+            up into the platform layer, where the work is Python scripting, SQL databases,
+            OPC UA connectivity and gateway performance.
+          </p>
+          <p class="mb-0 text-secondary">
+            That range is the reason customers get an answer instead of a handoff. When a
+            value on a screen is wrong, I can trace it back through the tag, the
+            connection, the network and the device until the cause is proven rather than
+            assumed, then write it up clearly enough for the customer to act on.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <dl class="mb-0">
+            <div class="d-flex justify-content-between gap-3 border-top py-3">
+              <dt class="fw-normal text-secondary">Current role</dt>
+              <dd class="mb-0 text-end fw-medium">Software Support Engineer II</dd>
+            </div>
+            <div class="d-flex justify-content-between gap-3 border-top py-3">
+              <dt class="fw-normal text-secondary">Employer</dt>
+              <dd class="mb-0 text-end fw-medium">Inductive Automation</dd>
+            </div>
+            <div class="d-flex justify-content-between gap-3 border-top py-3">
+              <dt class="fw-normal text-secondary">Platform</dt>
+              <dd class="mb-0 text-end fw-medium">Ignition SCADA</dd>
+            </div>
+            <div class="d-flex justify-content-between gap-3 border-top py-3">
+              <dt class="fw-normal text-secondary">Core tools</dt>
+              <dd class="mb-0 text-end fw-medium">Python, SQL, OPC UA</dd>
+            </div>
+            <div class="d-flex justify-content-between gap-3 border-top border-bottom py-3">
+              <dt class="fw-normal text-secondary">Education</dt>
+              <dd class="mb-0 text-end fw-medium">B.S. Computer Information Systems</dd>
+            </div>
+          </dl>
         </div>
       </div>
-    </section>
-
-    <section id="about" class="py-5">
-      <div class="container py-5">
-        <h2 class="text-center text-uppercase fw-bold mb-5 tracking-wide">About Me</h2>
-        <div class="row align-items-center gx-5">
-          <div class="col-md-4 text-center mb-4 mb-md-0">
-            <img src="./assets/profile-picture.jpg" alt="Thomas Lovin" class="img-fluid rounded-circle shadow-lg" style="max-width: 280px; object-fit: cover; aspect-ratio: 1/1;">
-          </div>
-          <div class="col-md-8 fs-5 text-muted">
-            <p>I am a Software Support Engineer specializing in industrial automation and SCADA systems. Combining a strong foundation in both hardware and software, I bridge the gap between physical electrical systems and data-driven applications.</p>
-            <p>I am passionate about utilizing tools like Python and SQL to troubleshoot complex technical challenges, optimize system performance, and innovate within the tech world. With hands-on experience ranging from PLCs and motor controls to advanced Python scripting and database management, I thrive in environments that require complex problem-solving and cross-functional collaboration.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="resume" class="py-5 bg-body-tertiary">
-      <div class="container py-5">
-        <h2 class="text-center text-uppercase fw-bold mb-5 tracking-wide">Resume</h2>
-        
-        <div class="row g-5">
-          <div class="col-lg-6">
-            <h3 class="h4 mb-4 pb-2 border-bottom border-primary d-inline-block">Work Experience</h3>
-            
-            <div class="mb-4">
-              <h4 class="h5 mb-1">Software Support Engineer II</h4>
-              <p class="small text-muted fw-semibold mb-2">Jul 2026 - Present | Folsom, CA (Remote)</p>
-              <ul class="text-muted small">
-                <li>Provide advanced technical troubleshooting and customer consulting for the Ignition SCADA platform, leading complex escalations and root cause analysis across industrial automation environments.</li>
-                <li>Diagnose and resolve issues involving Python scripting, OPC UA connectivity, SQL databases, gateway performance, networking, and system architecture.</li>
-                <li>Mentor support engineers, bridge communication between customers and engineering teams, and document technical solutions to improve support processes.</li>
-              </ul>
-            </div>
-
-            <div class="mb-4">
-              <h4 class="h5 mb-1">Software Support Engineer I</h4>
-              <p class="small text-muted fw-semibold mb-2">May 2025 - Jul 2026 | California (Hybrid)</p>
-              <p class="text-muted small">Specialized in Python programming, PLCs, and resolving technical system software issues for industrial clients.</p>
-            </div>
-
-            <div class="mb-4">
-              <h4 class="h5 mb-1">Software Technical Analyst</h4>
-              <p class="small text-muted fw-semibold mb-2">Sep 2024 - May 2025 | Hybrid</p>
-              <p class="text-muted small">Provided foundational software support, data analysis, and technical troubleshooting for complex systems.</p>
-            </div>
-
-            <div class="mb-4">
-              <h4 class="h5 mb-1">Power, Controls, & Info Systems Technician (PCIS)</h4>
-              <p class="small text-muted fw-semibold mb-2">Feb 2023 - Dec 2023 | Mars (Gainesville, GA)</p>
-              <ul class="text-muted small">
-                <li>Maintained and troubleshooted electrical power systems, automated controls, and industrial networks.</li>
-                <li>Collaborated with engineering teams to perform system upgrades and resolve technical issues.</li>
-              </ul>
-            </div>
-
-            <div class="mb-4">
-              <h4 class="h5 mb-1">Engineering Technician II</h4>
-              <p class="small text-muted fw-semibold mb-2">Jan 2022 - Feb 2023 | Honeywell (Duluth, GA)</p>
-              <ul class="text-muted small">
-                <li>Conducted electrical testing and supported R&D efforts for Healthy Building Technologies.</li>
-              </ul>
-            </div>
-            
-            <div class="mb-4">
-              <h4 class="h5 mb-1">Laboratory Technician / Tutor</h4>
-              <p class="small text-muted fw-semibold mb-2">Aug 2021 - Jan 2022 | Chattahoochee Tech</p>
-              <ul class="text-muted small">
-                <li>Led lab instruction on PLCs, industrial motor controls, hydraulic/pneumatic systems, and electrical circuits.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <h3 class="h4 mb-4 pb-2 border-bottom border-primary d-inline-block">Education</h3>
-            
-            <div class="mb-4">
-              <h4 class="h5 mb-1">B.S. in Computer Information Systems</h4>
-              <p class="small text-muted fw-semibold mb-2">Valdosta State University | Aug 2022 – May 2026</p>
-              <p class="small text-muted mb-1"><strong>Minor:</strong> Computer Science | <strong>GPA:</strong> 3.6</p>
-              <p class="text-muted small">Focuses on problem-solving, analysis, design, software engineering, database networking, and implementation of software systems. Includes a strong foundation in mathematics and business components.</p>
-            </div>
-
-            <div class="mb-5">
-              <h4 class="h5 mb-1">A.A.S. in Industrial and Electrical Technology</h4>
-              <p class="small text-muted fw-semibold mb-2">Chattahoochee Technical College | 2020 – 2022</p>
-              <p class="text-muted small">Competencies in high/low voltage electrical systems, motor controls, PLCs, fluids, and electrical theory in residential, commercial, and industrial systems.</p>
-            </div>
-            
-            <h3 class="h4 mb-4 pb-2 border-bottom border-primary d-inline-block">Core Skills</h3>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">Python Scripting</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">SQL / Databases</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">Ignition SCADA</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">OPC UA Connectivity</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">PLCs & Motor Controls</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">Root Cause Analysis</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">System Architecture</span>
-              <span class="badge rounded-pill text-bg-light border text-dark px-3 py-2">Troubleshooting</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="py-5">
-      <div class="container py-5">
-        <h2 class="text-center text-uppercase fw-bold mb-5 tracking-wide">Projects</h2>
-        
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">POS System</h3>
-                <p class="card-text text-muted flex-grow-1">CS4321 capstone project featuring a full Point of Sale system with inventory and transaction management.</p>
-                <a href="https://github.com/McLovin312/CS4321_Project" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">Inventory Management</h3>
-                <p class="card-text text-muted flex-grow-1">A comprehensive system to track, manage, and optimize inventory levels and data.</p>
-                <a href="https://github.com/McLovin312/Inventory-Management-System" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">C Custom Allocator</h3>
-                <p class="card-text text-muted flex-grow-1">A custom memory allocator implemented in C to manage dynamic memory allocation efficiently.</p>
-                <a href="https://github.com/McLovin312/c-custom-allocator" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">Kahoot Clone</h3>
-                <p class="card-text text-muted flex-grow-1">YAkahoot: An interactive quiz application inspired by Kahoot for live audience engagement.</p>
-                <a href="https://github.com/McLovin312/YAkahoot" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">URL Shortener</h3>
-                <p class="card-text text-muted flex-grow-1">A web utility designed to take long URLs and generate compact, easily shareable links.</p>
-                <a href="https://github.com/McLovin312/URL-Shortener" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">Church Potluck Planner</h3>
-                <p class="card-text text-muted flex-grow-1">An organizational tool to help coordinate dishes, attendees, and logistics for community events.</p>
-                <a href="https://github.com/McLovin312/ChurchPotLock" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">Kindling</h3>
-                <p class="card-text text-muted flex-grow-1">A software development project focusing on unique application architecture and execution.</p>
-                <a href="https://github.com/McLovin312/kindling" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">Java Todo List</h3>
-                <p class="card-text text-muted flex-grow-1">A robust task management application built in Java to track daily activities and goals.</p>
-                <a href="https://github.com/McLovin312/java-todo" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card h-100 shadow-sm border-0 project-card">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="card-title h5 fw-bold">HTML Resume</h3>
-                <p class="card-text text-muted flex-grow-1">A structured web-based resume template utilizing semantic HTML and modern CSS.</p>
-                <a href="https://github.com/McLovin312/Resume-HTML" target="_blank" rel="noopener noreferrer" class="badge rounded-pill text-bg-primary text-decoration-none px-3 py-2 mt-3 fw-bold">View on GitHub &rarr;</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="py-5 bg-body-tertiary">
-      <div class="container py-5 text-center">
-        <h2 class="text-uppercase fw-bold mb-4 tracking-wide">Get In Touch</h2>
-        <p class="lead text-muted mx-auto mb-5" style="max-width: 600px;">
-          I'm always open to discussing new opportunities, troubleshooting challenges, or talking about industrial automation.
-        </p>
-        <div class="d-flex justify-content-center gap-3 flex-column flex-sm-row">
-          <a href="mailto:thomas.lovin@example.com" class="btn btn-primary btn-lg fw-bold px-4">Email Me</a>
-          <a href="https://www.linkedin.com/in/thomas-lovin/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-lg fw-bold px-4">Connect on LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="bg-dark text-light text-center py-4">
-    <div class="container">
-      <p class="mb-0 text-white-50">&copy; 2026 Thomas Lovin. All rights reserved.</p>
     </div>
-  </footer>
+  </section>
 
-  <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmxc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-    crossorigin="anonymous">
-  </script>
+  <section id="about" class="py-5">
+    <div class="container py-lg-4">
+      <h2 class="h3 fw-semibold mb-4">About</h2>
+      <div class="row g-5 align-items-start">
+        <div class="col-md-4 col-lg-3">
+          <img src="./assets/profile-picture.jpg" alt="Thomas Lovin" width="480" height="480" class="portrait img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8 col-lg-8">
+          <p>
+            I started as an electrical and controls technician, wiring panels and keeping
+            production equipment online at Mars and Honeywell. Working on live systems
+            taught me how automation actually fails: rarely in one clean place, usually at
+            the seam between two layers that each look fine on their own.
+          </p>
+          <p>
+            I moved into software support in 2024 and now handle advanced escalations for
+            Ignition customers. A typical case involves Python scripts behaving differently
+            under load, historian queries slowing down as data volume grows, gateways
+            struggling at shift change, or an architecture that outgrew its original sizing.
+            The work is disciplined narrowing, then a clear explanation the customer can use.
+          </p>
+          <p class="mb-0 text-secondary">
+            Alongside the day job I finished a B.S. in Computer Information Systems at
+            Valdosta State University and keep building small projects to stay close to how
+            software is put together. This site is one of them, written in HTML and CSS
+            with no JavaScript.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="py-5 bg-body-tertiary border-top">
+    <div class="container py-lg-4">
+      <h2 class="h3 fw-semibold mb-4">Experience</h2>
+
+      <div class="row g-0 border-top py-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <p class="small fw-medium text-secondary mb-0">Jul 2026 to present</p>
+        </div>
+        <div class="col-md-9">
+          <h3 class="h5 fw-semibold mb-1">Software Support Engineer II</h3>
+          <p class="small text-secondary mb-3">Inductive Automation, Folsom, CA (remote)</p>
+          <ul class="mb-0 ps-3 text-secondary">
+            <li>Lead complex escalations and root cause analysis for Ignition SCADA customers across industrial environments.</li>
+            <li>Resolve issues spanning Python scripting, OPC UA connectivity, SQL databases, gateway performance, networking and system architecture.</li>
+            <li>Mentor support engineers, carry reproducible findings back to engineering and document solutions to shorten future resolution time.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row g-0 border-top py-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <p class="small fw-medium text-secondary mb-0">May 2025 to Jul 2026</p>
+        </div>
+        <div class="col-md-9">
+          <h3 class="h5 fw-semibold mb-1">Software Support Engineer I</h3>
+          <p class="small text-secondary mb-3">Inductive Automation, California (hybrid)</p>
+          <ul class="mb-0 ps-3 text-secondary">
+            <li>Resolved Python, PLC and system software issues for industrial clients from first report through verified fix.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row g-0 border-top py-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <p class="small fw-medium text-secondary mb-0">Sep 2024 to May 2025</p>
+        </div>
+        <div class="col-md-9">
+          <h3 class="h5 fw-semibold mb-1">Software Technical Analyst</h3>
+          <p class="small text-secondary mb-3">Hybrid</p>
+          <ul class="mb-0 ps-3 text-secondary">
+            <li>Handled front line software support, data analysis and troubleshooting on complex customer systems.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row g-0 border-top py-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <p class="small fw-medium text-secondary mb-0">Feb 2023 to Dec 2023</p>
+        </div>
+        <div class="col-md-9">
+          <h3 class="h5 fw-semibold mb-1">Power, Controls and Information Systems Technician</h3>
+          <p class="small text-secondary mb-3">Mars, Gainesville, GA</p>
+          <ul class="mb-0 ps-3 text-secondary">
+            <li>Maintained electrical power systems, automated controls and industrial networks on a running production site.</li>
+            <li>Supported system upgrades with engineering and troubleshot faults spanning hardware and software.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row g-0 border-top py-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <p class="small fw-medium text-secondary mb-0">Jan 2022 to Feb 2023</p>
+        </div>
+        <div class="col-md-9">
+          <h3 class="h5 fw-semibold mb-1">Engineering Technician II</h3>
+          <p class="small text-secondary mb-3">Honeywell, Duluth, GA</p>
+          <ul class="mb-0 ps-3 text-secondary">
+            <li>Performed electrical testing and supported research and development for Healthy Building Technologies.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row g-0 border-top border-bottom py-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <p class="small fw-medium text-secondary mb-0">Aug 2021 to Jan 2022</p>
+        </div>
+        <div class="col-md-9">
+          <h3 class="h5 fw-semibold mb-1">Laboratory Technician and Tutor</h3>
+          <p class="small text-secondary mb-3">Chattahoochee Technical College</p>
+          <ul class="mb-0 ps-3 text-secondary">
+            <li>Led lab instruction on PLCs, industrial motor controls, hydraulic and pneumatic systems and electrical circuits.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row g-5 mt-5">
+        <div class="col-lg-7">
+          <h2 class="h3 fw-semibold mb-4">Education</h2>
+          <div class="border-top py-4">
+            <h3 class="h5 fw-semibold mb-1">B.S. Computer Information Systems</h3>
+            <p class="small text-secondary mb-3">Valdosta State University, Aug 2022 to May 2026</p>
+            <p class="mb-0 text-secondary">
+              Minor in computer science. GPA 3.6. Coursework in software engineering,
+              database and network design, systems analysis and design, with supporting
+              mathematics and business requirements.
+            </p>
+          </div>
+          <div class="border-top border-bottom py-4">
+            <h3 class="h5 fw-semibold mb-1">A.A.S. Industrial and Electrical Technology</h3>
+            <p class="small text-secondary mb-3">Chattahoochee Technical College, 2020 to 2022</p>
+            <p class="mb-0 text-secondary">
+              High and low voltage systems, motor controls, PLCs, fluid power and
+              electrical theory across residential, commercial and industrial work.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <h2 class="h3 fw-semibold mb-4">Skills</h2>
+          <ul class="list-unstyled mb-0 skills">
+            <li class="border-top py-2">Python scripting</li>
+            <li class="border-top py-2">SQL and database administration</li>
+            <li class="border-top py-2">Ignition SCADA</li>
+            <li class="border-top py-2">OPC UA connectivity</li>
+            <li class="border-top py-2">PLCs and motor controls</li>
+            <li class="border-top py-2">Gateway performance tuning</li>
+            <li class="border-top py-2">Industrial networking</li>
+            <li class="border-top py-2">System architecture</li>
+            <li class="border-top py-2">Root cause analysis</li>
+            <li class="border-top border-bottom py-2">Java, C, HTML and CSS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-5">
+    <div class="container py-lg-4">
+      <h2 class="h3 fw-semibold mb-2">Projects</h2>
+      <p class="text-secondary mb-4 col-lg-7">
+        Coursework, side projects and a few experiments. Source for all of it is on GitHub.
+      </p>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/CS4321_Project" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">Point of Sale System</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                Senior capstone project. Product lookup, transaction handling and inventory
+                kept in step across a retail counter workflow.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/CS4321_Project</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/Inventory-Management-System" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">Inventory Management System</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                Tracks stock levels, movement history and reorder points so counts stay
+                accurate as items come and go.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/Inventory-Management-System</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/c-custom-allocator" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">Custom Memory Allocator</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                A replacement for malloc and free written in C, with its own free list,
+                block splitting and coalescing.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/c-custom-allocator</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/YAkahoot" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">YAkahoot</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                A live quiz application. A host opens a room, players answer from their own
+                devices and scores update as the round runs.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/YAkahoot</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/URL-Shortener" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">URL Shortener</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                Generates short links from long URLs, stores the mapping and serves the
+                redirect.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/URL-Shortener</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/ChurchPotLock" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">Potluck Planner</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                Coordinates who is bringing which dish for a church event, along with
+                headcount and setup details.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/ChurchPotLock</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/kindling" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">Kindling</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                An exercise in application structure, built from scratch to test how the
+                pieces fit together without a framework.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/kindling</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/java-todo" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">Java Task Manager</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                Task tracking in Java with due dates, completion state and persistence
+                between runs.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/java-todo</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a class="card h-100 border project-card text-decoration-none text-reset" href="https://github.com/McLovin312/Resume-HTML" target="_blank" rel="noopener noreferrer">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="h6 fw-semibold mb-2">HTML Resume</h3>
+              <p class="small text-secondary flex-grow-1 mb-3">
+                My resume marked up in semantic HTML and styled by hand. The starting point
+                for this site.
+              </p>
+              <p class="small mb-0 project-repo">McLovin312/Resume-HTML</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-body-tertiary border-top">
+    <div class="container py-lg-4">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+          <h2 class="h3 fw-semibold mb-3">Contact</h2>
+          <p class="text-secondary mb-4 mb-lg-0 col-lg-10">
+            I am open to work involving automation, data and the systems in between. If you
+            have a role to discuss or a problem worth comparing notes on, email is the
+            fastest way to reach me.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <p class="fs-5 mb-3">
+            <a href="mailto:thomasrlovin@gmail.com" class="fw-medium">thomasrlovin@gmail.com</a>
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3">
+            <a class="btn btn-primary rounded-pill px-4 fw-semibold" href="https://www.linkedin.com/in/thomas-lovin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-outline-primary rounded-pill px-4 fw-semibold" href="https://github.com/McLovin312" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer text-white py-4">
+  <div class="container d-flex flex-column flex-sm-row justify-content-between gap-2 small">
+    <p class="mb-0">&copy; 2026 Thomas Lovin</p>
+    <p class="mb-0 footer-note">Built with HTML and CSS</p>
+  </div>
+</footer>
+
 </body>
 </html>
