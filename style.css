@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.011em; }
   max-width: 280px;
   border: 6px solid #ffffff;
   box-shadow: 0 0 0 1px #dee2e6;
+  float:right;
 }
 
 .project-card { transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out; }
